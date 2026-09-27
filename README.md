@@ -9,7 +9,20 @@ This repository holds the installers of TelaioJS and their updates. The program'
 
 ## Download
 
-There is no release yet.
+**[TelaioJS for Windows](https://github.com/Fr4nZ82/telaiojs-releases/releases/latest)**: the installer,
+`TelaioJS-Setup-<version>.exe`, for Windows 10 and 11 (64-bit). Each release also carries the manual
+(`TelaioJS-Manual.md`) and the notices of the other authors' software.
+
+- **One installer for every computer of the shop.** On the computer that will run TelaioJS, choose *This
+  computer runs TelaioJS*; on the others, *This computer uses TelaioJS running on another computer*.
+- **Windows may stop it the first time** (*Windows protected your PC*): *More info*, then *Run anyway*.
+  The installer is not signed with a certificate.
+- **It updates itself** from this page: a new version is downloaded, checked against LNPrint's signature,
+  and installed the next time the computer starts.
+- **Two example jobs** come with it, in `Documents\Telaio\Examples`: a flyer and a business card to open
+  and take apart.
+- **It works for 14 days**, then with a key from LNPrint, typed in `Preferences > Program`. Without a key
+  the jobs still open and can be looked at; nothing is lost.
 
 ## How it is used
 
