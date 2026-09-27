@@ -23,6 +23,8 @@ This repository holds the installers of TelaioJS and their updates. The program'
   and take apart.
 - **It works for 14 days**, then with a key from LNPrint, typed in `Preferences > Program`. Without a key
   the jobs still open and can be looked at; nothing is lost.
+- **For a key**, or anything else about TelaioJS, write to LNPrint:
+  [fr4nz82@gmail.com](mailto:fr4nz82@gmail.com).
 
 ## How it is used
 
