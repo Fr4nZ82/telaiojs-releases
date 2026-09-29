@@ -7,7 +7,7 @@
 
 **A page-layout program for print shops. It is used the way QuarkXPress is used, and it makes PDFs ready for press.**
 
-> *Telaio* is Italian for loom, or frame: the chase that holds movable type in a letterpress.
+> *Telaio* is Italian for the chase: the iron frame in which movable type is set and then locked up for the press. The T of the name is the key that locks it.
 
 This repository holds the installers of TelaioJS and their updates. The program's code is not here.
 
