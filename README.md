@@ -1,4 +1,9 @@
-# TelaioJS
+<h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logo/telaiojs-logo-dark.svg">
+    <img src="logo/telaiojs-logo.svg" alt="TelaioJS" width="300">
+  </picture>
+</h1>
 
 **A page-layout program for print shops. It is used the way QuarkXPress is used, and it makes PDFs ready for press.**
 
