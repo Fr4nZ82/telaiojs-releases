@@ -30,23 +30,23 @@ TelaioJS runs on one computer of the shop and has no window of its own: it is us
 
 ## What it does
 
-- **Pages:** long documents, facing pages, master pages with automatic page numbers, margins, bleed and guides.
+- **Pages:** long documents, facing pages, master pages with automatic page numbers, margins, bleed and guides. Pieces laid on a press sheet, each with its trim box and its crop marks, repeated with Step and Repeat.
 - **Boxes and lines:** rectangles, rounded rectangles, ovals, polygons, stars, and free shapes drawn with a pen that behaves as Illustrator's does. Moved, resized and turned by hand or by the numbers, about a nine-point reference grid. Grouping, stacking, alignment and locking. Blends, frames, shade and opacity, drop shadows.
 - **Text:** set with the font's own measurements, so the screen and the PDF break lines in the same places. Justification and hyphenation in four languages, tabs, paragraph and character style sheets. One story runs through linked boxes across pages and around the items in front of it; a picture can sit in the line and move with the text.
 - **Fonts:** the shop's own TrueType and OpenType faces are uploaded once, and every document has them.
-- **Pictures:** JPEG, PNG, TIFF and the like; a light preview on screen, the original at full resolution in the PDF.
-- **Colour:** CMYK process colours and named spot inks.
-- **The PDF for press:** set by the same typesetter as the screen; fonts embedded; pictures at full resolution, CMYK kept as CMYK; every spot ink on a separation plate of its own; bleed written into the file; facing pages as single pages, reader spreads, or printer spreads for a folded booklet.
+- **Pictures:** JPEG, PNG, TIFF and the like; PDF and Illustrator files, placed by a page and a box and carried into the PDF as vector; EPS, through Ghostscript, which the installer offers to install. A light preview on screen, the original at full resolution in the PDF.
+- **Colour:** CMYK process colours and named spot inks, for one printing condition, FOGRA39 (offset on coated paper): a colour picked on screen becomes the recipe that press prints it with, and every ink is shown on screen as it prints.
+- **The PDF for press:** set by the same typesetter as the screen; fonts embedded; pictures at full resolution, CMYK kept as CMYK, RGB converted through FOGRA39; every spot ink on a separation plate of its own; bleed written into the file; facing pages as single pages, reader spreads, or printer spreads for a folded booklet; PDF/X-4 for the printer when it is asked for.
 - **The shop's archive:** Save writes the job as a `.telaio` file into the customer's folder, on the computer or on a shared disk, with the pictures it uses beside it. Open from Disk brings it back. Unsaved work is copied automatically as you go.
 - **Two hands on one job:** the same job open on two computers shows each one's work in the other as it is made. Each person has their own undo.
 - **An AI that lays out the page:** an AI assistant that speaks MCP (the standard way an assistant uses outside tools; Claude, for instance) connects to the program and makes documents with it, while a person watches and works alongside. It can do what the editor can, and it looks at its own pages before exporting. TelaioJS holds no AI key and makes no AI calls: the assistant is your own.
 
 ## What it does not do
 
-- The PDF is correct for press but does not claim PDF/X.
-- A logo in PDF or EPS cannot be placed: pictures come in as pixels.
+- PDF/X-4 only: no PDF/X-1a or X-3, which forbid transparency.
+- One printing condition, FOGRA39: no other, and no choice of rendering intent.
 - No tables.
-- No crop marks, on purpose: where they go depends on the press and the finishing, so they are drawn on the page by hand.
+- No crop marks round a page, on purpose: where they go depends on the press and the finishing. Pieces laid on a press sheet get them from their trim boxes.
 - On the shop's network the program speaks plain http: the password and the documents cross the network unencrypted.
 
 ## Licence
