@@ -15,7 +15,7 @@ This repository holds the installers of TelaioJS and their updates. The program'
 
 **[Try it first](https://telaiojs.contea.casa)**, in the browser, with nothing to install: each visitor gets a copy of TelaioJS of their own, with the two example jobs in it, for two hours. **Connect your own AI to it**: the blue strip at the top of the demo gives an address for your copy, which an AI assistant that speaks MCP (Claude, for instance) connects to, and then lays out pages with you while you watch. The demo takes up to four pictures of your own, 10 MB each, deleted with the copy, and no fonts; its PDFs say DEMO across every page.
 
-**[TelaioJS for Windows](https://github.com/Fr4nZ82/telaiojs-releases/releases/latest)**: the installer, `TelaioJS-Setup-<version>.exe`, for Windows 10 and 11 (64-bit). Each release also carries the manual (`TelaioJS-Manual.md`) and the notices of the other authors' software.
+**[TelaioJS for Windows](https://github.com/Fr4nZ82/telaiojs-releases/releases/latest)**: the installer, `TelaioJS-Setup-<version>.exe`, for Windows 10 and 11 (64-bit). Each release also carries the manual (`TelaioJS-Manual.md`) and the notices of the other authors' software. What each version changed is in the [changelog](CHANGELOG.md).
 
 - **One installer for every computer of the shop.** On the computer that will run TelaioJS, choose *This computer runs TelaioJS*; on the others, *This computer uses TelaioJS running on another computer*.
 - **Windows may stop it the first time** (*Windows protected your PC*): *More info*, then *Run anyway*. The installer is not signed with a certificate.
