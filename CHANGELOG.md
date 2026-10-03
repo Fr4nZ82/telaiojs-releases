@@ -2,6 +2,20 @@
 
 What each version of TelaioJS changed, newest first. Every version is on the [releases page](https://github.com/Fr4nZ82/telaiojs-releases/releases), with its installer, its manual and the notices of the other authors' software. A TelaioJS already installed takes each new version by itself: it is downloaded, checked against LNPrint's signature, and installed the next time the computer starts.
 
+## 0.5.0 — 3 October 2026
+
+- **Tables.** A new Table tool: drag the table's size, and Table Properties asks how many rows and columns. The cells take text — a click puts the insertion point in one, Tab and Shift+Tab go from cell to cell, Tab in the last cell adds a row — and a row grows with its text. The Table tab, shown while a table is held, and the right button's Table submenu put rows and columns in and take them out; the line between two rows or two columns is dragged to size them. A table moves, resizes and turns as a box, and prints as it shows; Ctrl while resizing scales its text, insets and lines with it.
+- **Choosing cells.** A drag across cells, or Shift+click, chooses them; a click just outside a table's left or right edge chooses a row, above or below it a column, a drag along the edge several. Combine Cells makes them one and Split Cell parts them again. The Character, Paragraph and Tabs tabs and the style sheets set the text of every chosen cell at once. Ctrl+C, Ctrl+X and Ctrl+V copy, cut and paste cells, also to and from a spreadsheet.
+- **The look of a table.** Its lines are set all together, by kind (between rows, between columns, the border) or one by one, with a width, pattern, colour, shade and opacity. Cells take a fill, a text inset, a vertical alignment and alignment on the decimal comma, which lines a column's prices up; every other row can be filled.
+- **Pictures in cells.** A picture dropped on a cell, or imported with a cell in hand, goes into it, fitted whole; the right button's Fill Box with Picture makes it cover the cell. The PDF prints it.
+- **Tables in text.** Insert Table puts a table at the insertion point, flowing with the text. A long one breaks between rows into the next column or the next box of the chain, on another page if need be; its header rows repeat over each part and its footer rows under each part but the last, and the parts after the first can have their own version of the header ("Listino (segue)").
+- **Text, tables and spreadsheets.** Convert Text to Table turns selected text into a table in its place, guessing what separates the columns; Convert Table to Text goes back. Cells copied from Excel, LibreOffice or Google Sheets and pasted on the page make a table.
+- **Style sheets and tables.** Changing a style sheet refits at once the tables whose text wears it, in the same Undo.
+- **The property bar** shows only the tabs with something usable in them, each in its usual place. Its fields no longer stand live over nothing before the first selection.
+- **A right-click in text being typed** keeps the text and its selection, so the menu acts on it.
+- **The manual** has a section on tables (5b).
+- **The AI** can do all of it (`place_table`, `insert_table`, `set_table`, `convert_text_to_table`, `convert_table_to_text`, and the text and pictures of cells), `describe` reads it back, and `check` looks in the cells of tables for stand-in fonts, missing characters and coarse pictures. Its guide may now run longer, so as to be complete and clear.
+
 ## 0.3.3 — 1 October 2026
 
 - **A group turns as one.** Turned by its corner, or given an angle in the property bar, a group turns as one piece: its frame and its handles turn with it, the angle shown is the group's own, and a side handle of a turned group stretches it along its own direction. A group made before keeps its items where they are.
