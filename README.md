@@ -19,10 +19,10 @@ This repository holds the installers of TelaioJS and their updates. The program'
 
 - **One installer for every computer of the shop.** On the computer that will run TelaioJS, choose *This computer runs TelaioJS*; on the others, *This computer uses TelaioJS running on another computer*.
 - **Windows may stop it the first time** (*Windows protected your PC*): *More info*, then *Run anyway*. The installer is not signed with a certificate.
-- **It updates itself** from this page: a new version is downloaded, checked against LNPrint's signature, and installed the next time the computer starts.
+- **It updates itself** from this page: a new version is downloaded, checked against its author's signature, and installed the next time the computer starts.
 - **Two example jobs** come with it, in `Documents\Telaio\Examples`: a flyer and a business card to open and take apart.
-- **It works for 14 days**, then with a key from LNPrint, typed in `Preferences > Program`. Without a key the jobs still open and can be looked at; nothing is lost.
-- **For a key**, or anything else about TelaioJS, write to LNPrint: [fr4nz82@gmail.com](mailto:fr4nz82@gmail.com).
+- **It works for 14 days**, then with a key, typed in `Preferences > Program`. Without a key the jobs still open and can be looked at; nothing is lost.
+- **For a key**, or anything else about TelaioJS, write to its author: [fr4nz82@gmail.com](mailto:fr4nz82@gmail.com).
 
 ## How it is used
 
@@ -53,4 +53,4 @@ TelaioJS runs on one computer of the shop and has no window of its own: it is us
 
 ## Licence
 
-TelaioJS is proprietary software, © 2026 LNPrint: see [LICENSE](LICENSE). It includes software by other authors under their own licences, listed with each release.
+TelaioJS is proprietary software, © 2026 the author of TelaioJS ([fr4nz82@gmail.com](mailto:fr4nz82@gmail.com)): see [LICENSE](LICENSE). It includes software by other authors under their own licences, listed with each release.

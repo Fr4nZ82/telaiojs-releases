@@ -1,6 +1,6 @@
 # Changelog
 
-What each version of TelaioJS changed, newest first. Every version is on the [releases page](https://github.com/Fr4nZ82/telaiojs-releases/releases), with its installer, its manual and the notices of the other authors' software. A TelaioJS already installed takes each new version by itself: it is downloaded, checked against LNPrint's signature, and installed the next time the computer starts.
+What each version of TelaioJS changed, newest first. Every version is on the [releases page](https://github.com/Fr4nZ82/telaiojs-releases/releases), with its installer, its manual and the notices of the other authors' software. A TelaioJS already installed takes each new version by itself: it is downloaded, checked against its author's signature, and installed the next time the computer starts.
 
 ## 0.7.0 — 4 October 2026
 
@@ -92,7 +92,7 @@ An automatic update does not install Ghostscript, which EPS pictures need: run t
 - **Keep with Next and Keep Lines Together** can be set on a paragraph in the Paragraph tab, not only in a style sheet.
 - **Space Before is no longer added at the top of a column**, where there is no paragraph above to part from. Text in documents already laid out may move up.
 - **The AI:** a window on another document, or on none, can open the document the AI is working on; numbers the AI sends as text are read as numbers; a picture box is placed with its runaround.
-- **A licence key:** the program says whom to write to: LNPrint at fr4nz82@gmail.com.
+- **A licence key:** the program says whom to write to: fr4nz82@gmail.com.
 
 ## 0.1.1 — 27 September 2026
 
