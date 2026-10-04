@@ -2,6 +2,13 @@
 
 What each version of TelaioJS changed, newest first. Every version is on the [releases page](https://github.com/Fr4nZ82/telaiojs-releases/releases), with its installer, its manual and the notices of the other authors' software. A TelaioJS already installed takes each new version by itself: it is downloaded, checked against its author's signature, and installed the next time the computer starts.
 
+## 0.7.1 — 4 October 2026
+
+- **Import Picture in the program and the online demo** works as in 0.7.0: it opens the program's folders, with This Device… for the device in hand.
+- **For programs that embed TelaioJS**, what was made for one host is now each host's choice, and leaving it out keeps the program as it was:
+  - `disk.pictures` turns on Import Picture's folder window: thumbnails, pixels, dpi and mm, the search, the program reading the file itself, and the AI's `upload_picture` `file` and `list_folder` `pictures`, `details` and `search`. Without it, Import Picture opens the device's file dialog, as before 0.7.0.
+  - `disk.label` gives the default folder a name of the host's own ("Cartelle dei clienti"). The folder window and the AI's places call it so. Where the program reaches that folder only (`disk.only`), the path at the top of the window reads from that name down ("Cartelle dei clienti › ROSSI_MARIO pizzeria") and a path can be typed that way too.
+
 ## 0.7.0 — 4 October 2026
 
 - **Pictures from the program's folders.** Import Picture — a double-click on an empty box, the right button's Import Picture, a picture for cells or an anchored item — opens the folder window of Save and Open from Disk, with the pictures (JPEG, PNG, GIF, WebP, AVIF, TIFF, PDF, Illustrator, EPS) of the folders the program's computer reaches, the shop's shared disk among them. The program reads the file chosen where it is: nothing is sent from the computer or tablet you work on, so it is quick on Wi-Fi and the same from every device. **This Device…** in the window sends a picture from the device in hand, as Import did before.
