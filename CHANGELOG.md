@@ -2,6 +2,16 @@
 
 What each version of TelaioJS changed, newest first. Every version is on the [releases page](https://github.com/Fr4nZ82/telaiojs-releases/releases), with its installer, its manual and the notices of the other authors' software. A TelaioJS already installed takes each new version by itself: it is downloaded, checked against LNPrint's signature, and installed the next time the computer starts.
 
+## 0.7.0 — 4 October 2026
+
+- **Pictures from the program's folders.** Import Picture — a double-click on an empty box, the right button's Import Picture, a picture for cells or an anchored item — opens the folder window of Save and Open from Disk, with the pictures (JPEG, PNG, GIF, WebP, AVIF, TIFF, PDF, Illustrator, EPS) of the folders the program's computer reaches, the shop's shared disk among them. The program reads the file chosen where it is: nothing is sent from the computer or tablet you work on, so it is quick on Wi-Fi and the same from every device. **This Device…** in the window sends a picture from the device in hand, as Import did before.
+- **Each picture shown before it is taken.** Every row has a thumbnail (a PDF's, Illustrator's or EPS's first page), the picture's pixels, dpi and size in mm — the size it arrives at in the box — and says in orange when the picture would print under 300 dpi made to fill the box. A folder of thousands opens at once; thumbnails come as rows come into view.
+- **Search.** A field in the window finds pictures by words of their names, in the folder and every folder inside it, accents and capitals not counting.
+- **One folder only, kept.** Where TelaioJS is set to reach a single folder (inside another program, or the online demo), nothing outside it is shown, taken or saved — a shortcut leading out of it included — and the refusal names the folder.
+- **The example jobs** are made again: their Black overprints, as a new document's does.
+- **The manual** says how pictures are taken from the folders (section 6c).
+- **The AI** takes a picture from the program's folders by its path (`upload_picture` `file`) without its bytes passing through it, and `list_folder` lists a folder's pictures (`pictures`), with their pixels, dpi and size (`details`), and searches by name (`search`).
+
 ## 0.6.0 — 4 October 2026
 
 - **Overprint.** Edit Color has an Overprint box: a colour ticked prints over the colours under it instead of knocking them out — text, backgrounds, frames, lines and tables wearing it — so black text leaves no white halo when the plates shift, and a die-line's or a varnish's ink cuts no white line into the artwork. A new document's Black is ticked. At a shade under 95 % a colour knocks out all the same (QuarkXPress's Overprint Limit), and White never overprints: its box is greyed. Blends, shadows and pictures never overprint; a placed PDF keeps its own overprints. A document made with an earlier version keeps its Black knocking out until its box is ticked. The PDF prints it, and the screen shows an overprint multiplied with what is under it: yellow over cyan shows green.
