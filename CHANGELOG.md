@@ -2,6 +2,14 @@
 
 What each version of TelaioJS changed, newest first. Every version is on the [releases page](https://github.com/Fr4nZ82/telaiojs-releases/releases), with its installer, its manual and the notices of the other authors' software. A TelaioJS already installed takes each new version by itself: it is downloaded, checked against LNPrint's signature, and installed the next time the computer starts.
 
+## 0.6.0 — 4 October 2026
+
+- **Overprint.** Edit Color has an Overprint box: a colour ticked prints over the colours under it instead of knocking them out — text, backgrounds, frames, lines and tables wearing it — so black text leaves no white halo when the plates shift, and a die-line's or a varnish's ink cuts no white line into the artwork. A new document's Black is ticked. At a shade under 95 % a colour knocks out all the same (QuarkXPress's Overprint Limit), and White never overprints: its box is greyed. Blends, shadows and pictures never overprint; a placed PDF keeps its own overprints. A document made with an earlier version keeps its Black knocking out until its box is ticked. The PDF prints it, and the screen shows an overprint multiplied with what is under it: yellow over cyan shows green.
+- **The separation preview.** The Colors palette's Separations button opens the document's plates — Cyan, Magenta, Yellow, Black and each spot ink — and shows one at a time, in grey as a film, as the PDF prints it, while the page goes on being edited: overprints and knock-outs, shades, opacity, blends, text and pictures, a CMYK photo with its own numbers and an RGB one as the export separates it. Its × gives the page back with every ink.
+- **Placed PDF and EPS files in the separation preview** show their real plates, read by Ghostscript as the printer's software reads them — a logo in pure black only on Black, their own overprints, and their spot inks, listed as plates even when the colour list has no such colour. On a computer without Ghostscript they are estimated from their screen colours, and the palette says so.
+- **The manual** says how overprint is set and how the plates are seen (section 6b).
+- **The AI** sets a colour's overprint (`define_color` `overprint`, the built-in colours' too), `describe` reads it back, and its guide says when to use it.
+
 ## 0.5.0 — 3 October 2026
 
 - **Tables.** A new Table tool: drag the table's size, and Table Properties asks how many rows and columns. The cells take text — a click puts the insertion point in one, Tab and Shift+Tab go from cell to cell, Tab in the last cell adds a row — and a row grows with its text. The Table tab, shown while a table is held, and the right button's Table submenu put rows and columns in and take them out; the line between two rows or two columns is dragged to size them. A table moves, resizes and turns as a box, and prints as it shows; Ctrl while resizing scales its text, insets and lines with it.
