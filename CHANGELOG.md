@@ -2,6 +2,18 @@
 
 What each version of TelaioJS changed, newest first. Every version is on the [releases page](https://github.com/Fr4nZ82/telaiojs-releases/releases), with its installer, its manual and the notices of the other authors' software. A TelaioJS already installed takes each new version by itself: it is downloaded, checked against its author's signature, and installed the next time the computer starts.
 
+## 0.8.0 — 4 October 2026
+
+- **A picture remembers its file.** A picture taken from the program's folders keeps where its file is, how big it was and when it was last changed.
+- **The Usage window**, a new list button near the gear at the top right, shows what a job uses.
+  - **Pictures**: every picture of the job — in a box, a table's cell or the text — with its page, its kind and the status of its file. **OK**; **Modified**, when the file has changed since it was placed (the customer sent the photo again under the same name); **Missing**; or **No file**, for a picture sent from a computer or tablet, or placed before this version. **Show** goes to it, **More** says where the file is and what it was and is now, and **Update** takes the file again for the pictures chosen, or every modified one, keeping each picture's scale and place in its box. One Undo puts them back. A missing picture is found again in the folder window.
+  - **When you open a job** whose pictures have changed in their folders, TelaioJS asks: Update, Usage, or Not Now.
+  - **Fonts**: every font the job's text and style sheets use, the styles of it asked for, where, and whether TelaioJS has it — OK, or Missing and the font it is shown in meanwhile. **Replace…** sets every use of a font in another, bold and italic kept, one Undo.
+  - **The program's fonts are now in Usage > Fonts**, under the job's, where a missing font can be added at once; Preferences no longer has a Fonts pane. Importing a PDF that lacks fonts still asks for them in Missing Fonts, with the same list.
+- **The Open window**, in a program that embeds TelaioJS and names its folder (`disk.label`), shows a job saved inside it from that name down ("Cartelle dei clienti › ROSSI_MARIO pizzeria › Biglietto Rossi.telaio"). Without a name, unchanged.
+- **The manual** has a section on Usage (6d), and section 9 says where the fonts are now.
+- **The AI** lists what a job uses (`list_usage`), takes changed pictures again (`update_picture`), replaces a font (`replace_font`), and is told when it opens a job whose pictures changed (`filesChanged`, `filesMissing`).
+
 ## 0.7.1 — 4 October 2026
 
 - **Import Picture in the program and the online demo** works as in 0.7.0: it opens the program's folders, with This Device… for the device in hand.
