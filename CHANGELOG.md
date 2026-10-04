@@ -2,6 +2,10 @@
 
 What each version of TelaioJS changed, newest first. Every version is on the [releases page](https://github.com/Fr4nZ82/telaiojs-releases/releases), with its installer, its manual and the notices of the other authors' software. A TelaioJS already installed takes each new version by itself: it is downloaded, checked against its author's signature, and installed the next time the computer starts.
 
+## 0.8.1 — 5 October 2026
+
+- **For programs that embed TelaioJS**, the text written on the accent colour — a primary button's label, the menu item under the pointer, the Preferences pane shown — is a theme colour of its own, `--telaio-on-accent`, set through `setTheme` like the others. It is white unless the host sets it, so a host whose accent is light can set it dark. The program installed and the online demo look as before.
+
 ## 0.8.0 — 4 October 2026
 
 - **A picture remembers its file.** A picture taken from the program's folders keeps where its file is, how big it was and when it was last changed.
